@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-19 12:50:40.152359",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "room_no",
+  "user_id",
+  "date",
+  "time_from",
+  "time_to",
+  "details",
+  "expected_capacity",
+  "amended_from",
+  "projector",
+  "white_board",
+  "audio_system",
+  "video_network_system"
+ ],
+ "fields": [
+  {
+   "fieldname": "room_no",
+   "fieldtype": "Link",
+   "label": "Room No",
+   "options": "Rooms"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "label": "User Id",
+   "options": "Userlist"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "time_from",
+   "fieldtype": "Select",
+   "label": "Time From",
+   "options": "9 Am\n9:30 Am\n10 Am\n10:30 Am\n11 Am\n11:30 Am\n12 Pm\n12:30 Pm\n1 Pm\n1:30 Pm\n2 Pm\n2:30 Pm\n3 Pm\n3:30 Pm\n4 Pm\n4:30 Pm\n5 Pm\n5:30 Pm"
+  },
+  {
+   "fieldname": "time_to",
+   "fieldtype": "Select",
+   "label": "Time To",
+   "options": "9 Am\n9:30 Am\n10 Am\n10:30 Am\n11 Am\n11:30 Am\n12 Pm\n12:30 Pm\n1 Pm\n1:30 Pm\n2 Pm\n2:30 Pm\n3 Pm\n3:30 Pm\n4 Pm\n4:30 Pm\n5 Pm\n5:30 Pm"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Data",
+   "label": "Details"
+  },
+  {
+   "fetch_from": "room_no.capacity",
+   "fieldname": "expected_capacity",
+   "fieldtype": "Data",
+   "label": "Expected Capacity"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Bookings",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "projector",
+   "fieldtype": "Check",
+   "label": "Projector"
+  },
+  {
+   "default": "0",
+   "fieldname": "white_board",
+   "fieldtype": "Check",
+   "label": "White Board"
+  },
+  {
+   "default": "0",
+   "fieldname": "audio_system",
+   "fieldtype": "Check",
+   "label": "Audio System"
+  },
+  {
+   "default": "0",
+   "fieldname": "video_network_system",
+   "fieldtype": "Check",
+   "label": "Video Network System"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-19 14:35:35.025874",
+ "modified_by": "Administrator",
+ "module": "EventNook",
+ "name": "Bookings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
