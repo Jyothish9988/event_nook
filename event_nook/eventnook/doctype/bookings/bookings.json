@@ -9,12 +9,16 @@
  "field_order": [
   "room_no",
   "user_id",
+  "column_break_2kfs5",
+  "expected_capacity",
+  "details",
+  "section_break_yp5gk",
   "date",
   "time_from",
   "time_to",
-  "details",
-  "expected_capacity",
   "amended_from",
+  "section_break_fdwd9",
+  "requirements",
   "projector",
   "white_board",
   "audio_system",
@@ -24,31 +28,39 @@
   {
    "fieldname": "room_no",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Room No",
-   "options": "Rooms"
+   "options": "Rooms",
+   "reqd": 1
   },
   {
    "fieldname": "user_id",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "User Id",
-   "options": "Userlist"
+   "options": "Userlist",
+   "reqd": 1
   },
   {
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date"
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
   },
   {
    "fieldname": "time_from",
    "fieldtype": "Select",
    "label": "Time From",
-   "options": "9 Am\n9:30 Am\n10 Am\n10:30 Am\n11 Am\n11:30 Am\n12 Pm\n12:30 Pm\n1 Pm\n1:30 Pm\n2 Pm\n2:30 Pm\n3 Pm\n3:30 Pm\n4 Pm\n4:30 Pm\n5 Pm\n5:30 Pm"
+   "options": "9 Am\n9:30 Am\n10 Am\n10:30 Am\n11 Am\n11:30 Am\n12 Pm\n12:30 Pm\n1 Pm\n1:30 Pm\n2 Pm\n2:30 Pm\n3 Pm\n3:30 Pm\n4 Pm\n4:30 Pm\n5 Pm\n5:30 Pm",
+   "reqd": 1
   },
   {
    "fieldname": "time_to",
    "fieldtype": "Select",
    "label": "Time To",
-   "options": "9 Am\n9:30 Am\n10 Am\n10:30 Am\n11 Am\n11:30 Am\n12 Pm\n12:30 Pm\n1 Pm\n1:30 Pm\n2 Pm\n2:30 Pm\n3 Pm\n3:30 Pm\n4 Pm\n4:30 Pm\n5 Pm\n5:30 Pm"
+   "options": "9 Am\n9:30 Am\n10 Am\n10:30 Am\n11 Am\n11:30 Am\n12 Pm\n12:30 Pm\n1 Pm\n1:30 Pm\n2 Pm\n2:30 Pm\n3 Pm\n3:30 Pm\n4 Pm\n4:30 Pm\n5 Pm\n5:30 Pm",
+   "reqd": 1
   },
   {
    "fieldname": "details",
@@ -59,7 +71,10 @@
    "fetch_from": "room_no.capacity",
    "fieldname": "expected_capacity",
    "fieldtype": "Data",
-   "label": "Expected Capacity"
+   "in_list_view": 1,
+   "label": "Expected Capacity",
+   "read_only": 1,
+   "reqd": 1
   },
   {
    "fieldname": "amended_from",
@@ -94,11 +109,30 @@
    "fieldname": "video_network_system",
    "fieldtype": "Check",
    "label": "Video Network System"
+  },
+  {
+   "fieldname": "section_break_yp5gk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_2kfs5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "section_break_fdwd9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "requirements",
+   "fieldtype": "Heading",
+   "label": "Requirements"
   }
  ],
+ "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-19 14:35:35.025874",
+ "modified": "2024-01-20 15:38:42.970067",
  "modified_by": "Administrator",
  "module": "EventNook",
  "name": "Bookings",
@@ -117,6 +151,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
