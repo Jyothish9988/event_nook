@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2024-01-20 21:27:28.742130",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-01-20 21:27:28.742130",
+ "modified_by": "Administrator",
+ "module": "EventNook",
+ "name": "calender",
+ "owner": "Administrator",
+ "page_name": "calender",
+ "roles": [
+  {
+   "role": "User"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 1,
+ "title": "Calender"
+}

@@ -23,24 +23,30 @@
   {
    "fieldname": "capacity",
    "fieldtype": "Data",
-   "label": "Capacity"
+   "in_list_view": 1,
+   "label": "Capacity",
+   "reqd": 1
   },
   {
    "fieldname": "location_name",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Room Location",
-   "options": "Location"
+   "options": "Location",
+   "reqd": 1
   },
   {
    "fieldname": "room_no",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Room N0",
+   "reqd": 1,
    "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-19 12:51:15.397168",
+ "modified": "2024-01-20 21:55:34.858440",
  "modified_by": "Administrator",
  "module": "EventNook",
  "name": "Rooms",
@@ -58,8 +64,21 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "User",
+   "share": 1,
+   "write": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

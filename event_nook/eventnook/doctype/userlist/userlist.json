@@ -38,7 +38,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-19 12:22:41.532306",
+ "modified": "2024-01-20 21:05:32.620874",
  "modified_by": "Administrator",
  "module": "EventNook",
  "name": "Userlist",
@@ -54,6 +54,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "User",
    "share": 1,
    "write": 1
   }
