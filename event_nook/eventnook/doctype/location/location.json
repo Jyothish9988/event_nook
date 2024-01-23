@@ -16,13 +16,15 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Location Name",
+   "max_height": "10px",
    "reqd": 1,
-   "unique": 1
+   "unique": 1,
+   "width": "10px"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-20 21:55:08.659389",
+ "modified": "2024-01-22 10:31:54.713821",
  "modified_by": "Administrator",
  "module": "EventNook",
  "name": "Location",

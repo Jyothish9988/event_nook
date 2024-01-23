@@ -45,8 +45,9 @@
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2024-01-20 21:55:34.858440",
+ "modified": "2024-01-22 14:54:11.061260",
  "modified_by": "Administrator",
  "module": "EventNook",
  "name": "Rooms",

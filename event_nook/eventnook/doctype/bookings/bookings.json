@@ -50,16 +50,14 @@
   },
   {
    "fieldname": "time_from",
-   "fieldtype": "Select",
+   "fieldtype": "Time",
    "label": "Time From",
-   "options": "9 Am\n9:30 Am\n10 Am\n10:30 Am\n11 Am\n11:30 Am\n12 Pm\n12:30 Pm\n1 Pm\n1:30 Pm\n2 Pm\n2:30 Pm\n3 Pm\n3:30 Pm\n4 Pm\n4:30 Pm\n5 Pm\n5:30 Pm",
    "reqd": 1
   },
   {
    "fieldname": "time_to",
-   "fieldtype": "Select",
+   "fieldtype": "Time",
    "label": "Time To",
-   "options": "9 Am\n9:30 Am\n10 Am\n10:30 Am\n11 Am\n11:30 Am\n12 Pm\n12:30 Pm\n1 Pm\n1:30 Pm\n2 Pm\n2:30 Pm\n3 Pm\n3:30 Pm\n4 Pm\n4:30 Pm\n5 Pm\n5:30 Pm",
    "reqd": 1
   },
   {
@@ -131,8 +129,9 @@
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-01-20 21:04:44.174521",
+ "modified": "2024-01-22 12:20:42.504266",
  "modified_by": "Administrator",
  "module": "EventNook",
  "name": "Bookings",
